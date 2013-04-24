@@ -1,7 +1,11 @@
-// written by Stephan Brumme, 2011
+// //////////////////////////////////////////////////////////
+// Copyright (c) 2011 Stephan Brumme. All rights reserved.
+// see http://create.stephan-brumme.com/disclaimer.html
+//
 
-// uncomment if not compiled for Windows
-//#define USE_WINDOWS_TIMER
+#ifdef _WIN32
+#define USE_WINDOWS_TIMER
+#endif
 
 typedef __int32 Number;  // or for the brave ones: typedef __int64 Number;
 
